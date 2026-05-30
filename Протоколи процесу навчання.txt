@@ -1,0 +1,120 @@
+Протоколи процесу навчання досліджуваних моделей
+
+Базовий дискримінатор
+=== TRAINING SUMMARY ===
+[BASE][Epoch 1/15] G=15.9057 | D=1.3176 | PSNR=22.21 | SSIM=0.671 | lambda_p=1.000 | lambda_adv=0.100 | time=207.3s
+[BASE][Epoch 2/15] G=14.7216 | D=0.8592 | PSNR=21.43 | SSIM=0.659 | lambda_p=1.000 | lambda_adv=0.100 | time=146.7s
+[BASE][Epoch 3/15] G=15.2971 | D=0.8184 | PSNR=22.12 | SSIM=0.660 | lambda_p=1.000 | lambda_adv=0.100 | time=145.2s
+[BASE][Epoch 4/15] G=17.9382 | D=2.3939 | PSNR=18.90 | SSIM=0.502 | lambda_p=8.958 | lambda_adv=4.830 | time=146.3s
+[BASE][Epoch 5/15] G=18.6795 | D=1.7285 | PSNR=18.94 | SSIM=0.470 | lambda_p=13.585 | lambda_adv=4.308 | time=147.1s
+[BASE][Epoch 6/15] G=19.1389 | D=1.6617 | PSNR=21.15 | SSIM=0.534 | lambda_p=15.898 | lambda_adv=4.126 | time=145.4s
+[BASE][Epoch 7/15] G=18.8889 | D=1.6705 | PSNR=20.67 | SSIM=0.491 | lambda_p=14.737 | lambda_adv=4.393 | time=148.6s
+[BASE][Epoch 8/15] G=18.1679 | D=1.5738 | PSNR=21.62 | SSIM=0.504 | lambda_p=18.258 | lambda_adv=4.142 | time=149.8s
+[BASE][Epoch 9/15] G=17.2107 | D=1.6275 | PSNR=21.90 | SSIM=0.466 | lambda_p=15.778 | lambda_adv=3.991 | time=146.8s
+[BASE][Epoch 10/15] G=17.8613 | D=1.4902 | PSNR=21.47 | SSIM=0.513 | lambda_p=16.591 | lambda_adv=3.824 | time=148.4s
+[BASE][Epoch 11/15] G=17.7024 | D=1.5509 | PSNR=22.30 | SSIM=0.533 | lambda_p=16.616 | lambda_adv=4.166 | time=149.3s
+[BASE][Epoch 12/15] G=18.5973 | D=1.4881 | PSNR=22.05 | SSIM=0.512 | lambda_p=17.290 | lambda_adv=4.159 | time=148.4s
+[BASE][Epoch 13/15] G=17.8859 | D=1.4816 | PSNR=22.01 | SSIM=0.517 | lambda_p=17.770 | lambda_adv=3.829 | time=149.1s
+[BASE][Epoch 14/15] G=17.1358 | D=1.4992 | PSNR=22.71 | SSIM=0.533 | lambda_p=16.827 | lambda_adv=3.852 | time=147.4s
+[BASE][Epoch 15/15] G=18.0170 | D=1.5111 | PSNR=22.54 | SSIM=0.559 | lambda_p=18.653 | lambda_adv=3.932 | time=150.2s
+
+=== TRAINING SUMMARY (lambda) ===
+[DEBUG] step 0 | content=13.929 | adv=0.051 (0.4%) | pixel=0.004 (0.0%)
+[DEBUG] step 50 | content=8.151 | adv=0.119 (1.5%) | pixel=0.009 (0.1%)
+[DEBUG] step 100 | content=13.926 | adv=0.153 (1.1%) | pixel=0.007 (0.1%)
+[DEBUG] step 150 | content=13.260 | adv=0.500 (3.8%) | pixel=0.016 (0.1%)
+[DEBUG] step 200 | content=13.541 | adv=1.869 (13.8%) | pixel=0.214 (1.6%)
+[DEBUG] step 250 | content=12.696 | adv=3.548 (27.9%) | pixel=0.150 (1.2%)
+[DEBUG] step 300 | content=20.313 | adv=2.783 (13.7%) | pixel=0.181 (0.9%)
+[DEBUG] step 350 | content=16.418 | adv=3.748 (22.8%) | pixel=0.140 (0.9%)
+[DEBUG] step 400 | content=11.426 | adv=2.918 (25.5%) | pixel=0.122 (1.1%)
+[DEBUG] step 450 | content=14.386 | adv=3.489 (24.3%) | pixel=0.159 (1.1%)
+[DEBUG] step 500 | content=21.316 | adv=2.193 (10.3%) | pixel=0.150 (0.7%)
+[DEBUG] step 550 | content=7.839 | adv=2.709 (34.6%) | pixel=0.111 (1.4%)
+[DEBUG] step 600 | content=18.487 | adv=2.631 (14.2%) | pixel=0.180 (1.0%)
+[DEBUG] step 650 | content=14.317 | adv=2.382 (16.6%) | pixel=0.093 (0.6%)
+[DEBUG] step 700 | content=14.411 | adv=2.777 (19.3%) | pixel=0.118 (0.8%)
+
+
+
+Дискримінатор GAP
+=== TRAINING SUMMARY ===
+[GAP][Epoch 1/15] G=15.4804 | D=1.3105 | PSNR=21.99 | SSIM=0.664 | lambda_p=1.000 | lambda_adv=0.100 | time=191.9s
+[GAP][Epoch 2/15] G=14.6431 | D=0.6231 | PSNR=21.22 | SSIM=0.656 | lambda_p=1.000 | lambda_adv=0.100 | time=137.7s
+[GAP][Epoch 3/15] G=14.8264 | D=0.2822 | PSNR=21.25 | SSIM=0.658 | lambda_p=1.000 | lambda_adv=0.100 | time=130.9s
+[GAP][Epoch 4/15] G=16.3498 | D=0.1588 | PSNR=21.60 | SSIM=0.668 | lambda_p=2.990 | lambda_adv=1.033 | time=130.5s
+[GAP][Epoch 5/15] G=19.7293 | D=0.4513 | PSNR=19.62 | SSIM=0.538 | lambda_p=3.000 | lambda_adv=2.886 | time=142.1s
+[GAP][Epoch 6/15] G=22.4958 | D=0.9813 | PSNR=17.80 | SSIM=0.505 | lambda_p=3.000 | lambda_adv=3.422 | time=129.9s
+[GAP][Epoch 7/15] G=24.0442 | D=0.7112 | PSNR=16.55 | SSIM=0.438 | lambda_p=3.000 | lambda_adv=2.469 | time=131.7s
+[GAP][Epoch 8/15] G=21.6944 | D=0.2704 | PSNR=18.56 | SSIM=0.481 | lambda_p=3.000 | lambda_adv=1.549 | time=136.5s
+[GAP][Epoch 9/15] G=19.4582 | D=0.1738 | PSNR=19.07 | SSIM=0.481 | lambda_p=3.000 | lambda_adv=1.097 | time=138.5s
+[GAP][Epoch 10/15] G=18.0521 | D=0.1095 | PSNR=17.96 | SSIM=0.461 | lambda_p=3.000 | lambda_adv=0.902 | time=136.6s
+[GAP][Epoch 11/15] G=18.8292 | D=0.6123 | PSNR=19.79 | SSIM=0.475 | lambda_p=3.000 | lambda_adv=1.894 | time=137.8s
+[GAP][Epoch 12/15] G=19.4789 | D=0.3752 | PSNR=20.62 | SSIM=0.511 | lambda_p=3.000 | lambda_adv=1.855 | time=137.1s
+[GAP][Epoch 13/15] G=19.3865 | D=0.6057 | PSNR=20.05 | SSIM=0.467 | lambda_p=3.000 | lambda_adv=2.145 | time=136.2s
+[GAP][Epoch 14/15] G=20.0757 | D=0.6472 | PSNR=18.61 | SSIM=0.436 | lambda_p=3.000 | lambda_adv=2.504 | time=135.3s
+[GAP][Epoch 15/15] G=19.6843 | D=0.3040 | PSNR=18.36 | SSIM=0.479 | lambda_p=3.000 | lambda_adv=1.708 | time=136.0s
+
+=== TRAINING SUMMARY (lambda) ===
+[DEBUG] step 0 | content=25.441 | adv=0.110 (0.4%) | pixel=0.006 (0.0%)
+[DEBUG] step 50 | content=18.768 | adv=0.124 (0.7%) | pixel=0.009 (0.0%)
+[DEBUG] step 100 | content=12.059 | adv=0.171 (1.4%) | pixel=0.008 (0.1%)
+[DEBUG] step 150 | content=16.666 | adv=0.562 (3.4%) | pixel=0.010 (0.1%)
+[DEBUG] step 200 | content=15.362 | adv=2.852 (18.6%) | pixel=0.030 (0.2%)
+[DEBUG] step 250 | content=18.384 | adv=1.174 (6.4%) | pixel=0.083 (0.5%)
+[DEBUG] step 300 | content=20.911 | adv=3.241 (15.5%) | pixel=0.042 (0.2%)
+[DEBUG] step 350 | content=22.205 | adv=5.307 (23.9%) | pixel=0.113 (0.5%)
+[DEBUG] step 400 | content=16.956 | adv=3.650 (21.5%) | pixel=0.038 (0.2%)
+[DEBUG] step 450 | content=17.808 | adv=3.520 (19.8%) | pixel=0.042 (0.2%)
+[DEBUG] step 500 | content=11.323 | adv=2.613 (23.1%) | pixel=0.029 (0.3%)
+[DEBUG] step 550 | content=20.046 | adv=3.222 (16.1%) | pixel=0.043 (0.2%)
+[DEBUG] step 600 | content=23.384 | adv=2.116 (9.0%) | pixel=0.039 (0.2%)
+[DEBUG] step 650 | content=20.794 | adv=4.194 (20.2%) | pixel=0.043 (0.2%)
+[DEBUG] step 700 | content=15.732 | adv=3.683 (23.4%) | pixel=0.053 (0.3%)
+
+
+
+Дискримінатор PatchGAN
+=== TRAINING SUMMARY ===
+[PATCH-GAN][Epoch 1/20] G=15.2681 | D=1.3808 | PSNR=22.25 | SSIM=0.678 | lambda_p=1.000 | lambda_adv=0.100 | time=157.5s
+[PATCH-GAN][Epoch 2/20] G=15.1167 | D=1.0129 | PSNR=22.02 | SSIM=0.673 | lambda_p=1.000 | lambda_adv=0.100 | time=105.8s
+[PATCH-GAN][Epoch 3/20] G=15.4064 | D=0.5674 | PSNR=21.56 | SSIM=0.664 | lambda_p=1.000 | lambda_adv=0.100 | time=105.4s
+[PATCH-GAN][Epoch 4/20] G=19.1303 | D=1.0629 | PSNR=17.82 | SSIM=0.489 | lambda_p=2.990 | lambda_adv=3.974 | time=105.4s
+[PATCH-GAN][Epoch 5/20] G=21.7952 | D=1.1614 | PSNR=18.71 | SSIM=0.483 | lambda_p=3.000 | lambda_adv=3.442 | time=107.8s
+[PATCH-GAN][Epoch 6/20] G=20.7849 | D=0.8238 | PSNR=20.63 | SSIM=0.499 | lambda_p=3.000 | lambda_adv=3.048 | time=106.3s
+[PATCH-GAN][Epoch 7/20] G=21.8246 | D=1.1443 | PSNR=16.85 | SSIM=0.403 | lambda_p=3.000 | lambda_adv=3.520 | time=109.6s
+[PATCH-GAN][Epoch 8/20] G=20.0367 | D=0.8970 | PSNR=20.93 | SSIM=0.498 | lambda_p=3.000 | lambda_adv=2.717 | time=108.6s
+[PATCH-GAN][Epoch 9/20] G=20.1461 | D=0.6435 | PSNR=20.05 | SSIM=0.442 | lambda_p=3.000 | lambda_adv=2.111 | time=108.5s
+[PATCH-GAN][Epoch 10/20] G=19.6615 | D=0.5794 | PSNR=19.90 | SSIM=0.384 | lambda_p=3.000 | lambda_adv=1.978 | time=113.6s
+[PATCH-GAN][Epoch 11/20] G=20.0677 | D=0.5611 | PSNR=21.62 | SSIM=0.501 | lambda_p=3.000 | lambda_adv=1.948 | time=114.9s
+[PATCH-GAN][Epoch 12/20] G=20.8644 | D=0.9272 | PSNR=20.92 | SSIM=0.511 | lambda_p=3.000 | lambda_adv=3.244 | time=114.2s
+[PATCH-GAN][Epoch 13/20] G=21.0398 | D=0.9878 | PSNR=19.20 | SSIM=0.452 | lambda_p=3.000 | lambda_adv=2.541 | time=112.8s
+[PATCH-GAN][Epoch 14/20] G=19.6551 | D=1.0435 | PSNR=21.71 | SSIM=0.530 | lambda_p=3.000 | lambda_adv=3.387 | time=142.1s
+[PATCH-GAN][Epoch 15/20] G=20.2308 | D=0.9281 | PSNR=20.21 | SSIM=0.524 | lambda_p=3.000 | lambda_adv=3.418 | time=112.4s
+[PATCH-GAN][Epoch 16/20] G=19.6839 | D=0.9235 | PSNR=20.49 | SSIM=0.495 | lambda_p=3.000 | lambda_adv=2.785 | time=114.7s
+[PATCH-GAN][Epoch 17/20] G=21.5636 | D=1.2415 | PSNR=20.33 | SSIM=0.508 | lambda_p=3.000 | lambda_adv=3.720 | time=112.7s
+[PATCH-GAN][Epoch 18/20] G=21.0562 | D=1.1686 | PSNR=20.33 | SSIM=0.505 | lambda_p=3.000 | lambda_adv=3.295 | time=114.6s
+[PATCH-GAN][Epoch 19/20] G=20.1048 | D=1.2003 | PSNR=21.62 | SSIM=0.566 | lambda_p=3.000 | lambda_adv=3.833 | time=113.0s
+[PATCH-GAN][Epoch 20/20] G=20.7334 | D=0.9819 | PSNR=20.46 | SSIM=0.511 | lambda_p=3.000 | lambda_adv=2.418 | time=115.6s
+
+=== TRAINING SUMMARY (lambda) ===
+[DEBUG] step 0 | content=14.738 | adv=0.074 (0.5%) | pixel=0.004 (0.0%)
+[DEBUG] step 50 | content=18.164 | adv=0.094 (0.5%) | pixel=0.007 (0.0%)
+[DEBUG] step 100 | content=17.452 | adv=0.142 (0.8%) | pixel=0.008 (0.0%)
+[DEBUG] step 150 | content=11.236 | adv=0.381 (3.4%) | pixel=0.008 (0.1%)
+[DEBUG] step 200 | content=14.877 | adv=4.696 (31.6%) | pixel=0.097 (0.7%)
+[DEBUG] step 250 | content=11.338 | adv=4.417 (39.0%) | pixel=0.026 (0.2%)
+[DEBUG] step 300 | content=21.286 | adv=3.086 (14.5%) | pixel=0.053 (0.2%)
+[DEBUG] step 350 | content=22.804 | adv=3.896 (17.1%) | pixel=0.053 (0.2%)
+[DEBUG] step 400 | content=14.980 | adv=3.609 (24.1%) | pixel=0.030 (0.2%)
+[DEBUG] step 450 | content=14.521 | adv=3.081 (21.2%) | pixel=0.046 (0.3%)
+[DEBUG] step 500 | content=15.097 | adv=4.027 (26.7%) | pixel=0.075 (0.5%)
+[DEBUG] step 550 | content=17.837 | adv=2.876 (16.1%) | pixel=0.061 (0.3%)
+[DEBUG] step 600 | content=22.716 | adv=3.557 (15.7%) | pixel=0.045 (0.2%)
+[DEBUG] step 650 | content=14.330 | adv=2.825 (19.7%) | pixel=0.039 (0.3%)
+[DEBUG] step 700 | content=13.709 | adv=4.107 (30.0%) | pixel=0.023 (0.2%)
+[DEBUG] step 750 | content=21.630 | adv=3.544 (16.4%) | pixel=0.030 (0.1%)
+[DEBUG] step 800 | content=13.395 | adv=4.309 (32.2%) | pixel=0.026 (0.2%)
+[DEBUG] step 850 | content=20.105 | adv=3.421 (17.0%) | pixel=0.059 (0.3%)
+[DEBUG] step 900 | content=14.127 | adv=3.296 (23.3%) | pixel=0.035 (0.2%)
+[DEBUG] step 950 | content=20.050 | adv=2.609 (13.0%) | pixel=0.049 (0.2%)
